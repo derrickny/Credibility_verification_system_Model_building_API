@@ -36,11 +36,11 @@ The notebook provides insights into potential adjustments, such as varying the n
  By separating the tasks into these two notebooks, the project maintains a clear and organized structure, allowing for a focused exploration of both traditional machine learning approaches and advanced NLP techniques using GloVe embeddings
 
 
-## Model Consolidation Using Ngrok
+### Model Consolidation Using Ngrok
 
 To make the trained models accessible for predictions, the Flask API has been deployed using Ngrok for tunneling. The consolidated model can be accessed using the following URL: [https://c90e-41-80-113-166.ngrok-free.app](https://c90e-41-80-113-166.ngrok-free.app).
 
-## Testing the Deployed Model
+### Testing the Deployed Model
 
 To test the deployed model, use the provided `test.py` script. Simply run the script and enter a statement when prompted. The script will send a POST request to the deployed API and print the prediction.
 
