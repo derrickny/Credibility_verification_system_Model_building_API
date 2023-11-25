@@ -38,7 +38,7 @@ The notebook provides insights into potential adjustments, such as varying the n
 
 ### Model Consolidation Using Ngrok
 
-To make the trained models accessible for predictions, the Flask API has been deployed using Ngrok for tunneling. The consolidated model can be accessed using the following URL: [https://c90e-41-80-113-166.ngrok-free.app](https://c90e-41-80-113-166.ngrok-free.app).
+To make the trained model accessible for predictions, the Flask API has been deployed using Ngrok for tunneling. The consolidated model can be accessed using the following URL: [https://c90e-41-80-113-166.ngrok-free.app](https://c90e-41-80-113-166.ngrok-free.app).
 
 ### Testing the Deployed Model
 
