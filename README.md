@@ -9,7 +9,7 @@ This notebook encompasses the entire data science pipeline, starting with data e
 * Data Loading and Exploration: The dataset, containing statements and their corresponding verdicts, is loaded and explored to gain insights into the data distribution, null values, and key statistics.
 * Data Preprocessing: The textual data undergoes preprocessing steps such as text cleaning, handling missing values, and transforming categorical labels into numerical representations suitable for machine learning models.
 * Exploratory Data Analysis (EDA): Comprehensive EDA is conducted to understand the distribution of verdicts, uncover patterns, and identify potential features. Visualizations are used to illustrate key findings.
-* Feature Engineering: Relevant features are engineered, especially focusing on extracting meaningful information from the textual statements using techniques like TF-IDF or word embeddings.
+* Feature Engineering: Relevant features are engineered, especially focusing on extracting meaningful information from the textual statements using techniques like TF-IDF and word embeddings.
 * Model Building: Various machine learning algorithms are employed to build classification models. This includes traditional algorithms such as Logistic Regression and SVM, as well as ensemble methods like made up of Random Forest, svm and Logistic Regression . Model performance metrics are computed, and models are fine-tuned accordingly.
 
 ### NLP_model.ipynb:
