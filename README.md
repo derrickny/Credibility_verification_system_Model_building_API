@@ -14,9 +14,23 @@ This notebook encompasses the entire data science pipeline, starting with data e
 
 ### NLP_model.ipynb:
 This notebook is dedicated to the creation of a Natural Language Processing (NLP) model using GloVe embeddings. The main highlights include:
-* Introduction to GloVe: An introduction to GloVe embeddings and their significance in NLP tasks.
-* Tokenization and Padding: The textual data is tokenized, and padding is applied to ensure consistent input dimensions for the model.
-* Model Architecture: The NLP model is constructed using a bag-of-words linear classifier (BOW-LC) approach. It involves an embedding layer to convert text into continuous embeddings and a * linear layer for classification.
-* Training and Evaluation: The model is trained using GloVe embeddings, and its performance is evaluated using standard metrics such as accuracy. The training process is visualized to * analyze the convergence and performance over epochs.
+* Data Preparation:
+The notebook commences with the loading of the combined dataset, containing statements and corresponding verdicts (True or False).
+Data exploration and preprocessing steps, including cleaning and handling missing values, are performed to ensure a reliable dataset.
+* Text Preprocessing:
+Textual data undergoes preprocessing steps, such as denoising and tokenization, to prepare it for embedding.
+* GloVe Embeddings:
+Pre-trained GloVe embeddings are employed to impart a semantic understanding to the words in the dataset.
+An embedding matrix is constructed, incorporating the pre-trained word vectors.
+* LSTM Model Architecture:
+The core of the notebook revolves around the implementation of a Long Short-Term Memory (LSTM) neural network.
+The model architecture consists of an embedding layer initialized with GloVe embeddings, an LSTM layer for sequential context capture, and dense layers with regularization for effective training.
+* Training and Evaluation:
+The model is trained using the prepared dataset, and its performance is evaluated on a separate test set.
+Metrics such as accuracy are employed to gauge the model's effectiveness.
+* Results and Visualizations:
+Key results, including accuracy scores and visualizations depicting the model's training and testing performance over epochs, are presented.
+* Further Considerations:
+The notebook provides insights into potential adjustments, such as varying the number of epochs and fine-tuning hyperparameters, to enhance model performance.
 
  By separating the tasks into these two notebooks, the project maintains a clear and organized structure, allowing for a focused exploration of both traditional machine learning approaches and advanced NLP techniques using GloVe embeddings
